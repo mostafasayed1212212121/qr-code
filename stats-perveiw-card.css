@@ -1,0 +1,120 @@
+:root{
+--Verydark-blue: hsl(233, 47%, 7%);
+--Dark-desaturated-blue: hsl(244, 54%, 21%);
+--Soft-violet: hsl(277, 64%, 61%);
+--White: hsl(0, 0%, 100%);
+--Slightly-transparent : hsla(0, 0%, 100%, 0.75);
+--Slightly-transparent : hsla(0, 0%, 100%, 0.6);
+}
+
+.body{
+  background: var(--Verydark-blue);
+}
+
+
+
+
+
+.header-image {
+
+width: 450px;
+border-radius: 12px;
+cursor: pointer;
+} 
+.continer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  margin: 50px auto;
+  background-color: var(--Dark-desaturated-blue);
+  border-radius: 12px; 
+}
+
+
+.par-continer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+}
+
+
+.describtion{
+  text-align: center ;
+  font-size: 22px;
+  font-family: arial;
+  font-weight: 400;
+  max-width: 450px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: var(--Slightly-transparent)
+}
+.title{
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  font-weight: 600;
+color: var(--White);
+}
+
+.word{
+  color: var(--Soft-violet);
+}
+
+
+.companies{
+  color: var(--White);
+  font-size: 19px;
+  font-family: "Courier New, Courier, monospace";
+  font-weight: 200;
+  color: var(--Slightly-transparent);
+}
+
+.templates{
+  font-size: 19px;
+  color: var(--Slightly-transparent);
+  font-family: "Courier New, Courier, monospace";
+  font-weight: 200;
+}
+
+.queries{
+  color: var(--White);
+  font-size: 19px;
+  font-family:"Courier New, Courier, monospace" ;
+  margin-bottom:30px ;
+  font-weight: 200;
+  color: var(--Slightly-transparent);
+}
+
+.numbers{
+text-align: center;
+display: block;
+margin-top: 0px;
+padding: 0px 30px 30px;
+}
+
+.value{
+  font-family: "Courier New', Courier, monospace";
+  font-weight: 900;
+  font-size: 23px;
+line-height: 3rem;
+color: var(--White);
+}
+.value-x{
+  font-family: "Courier New', Courier, monospace";
+  font-weight: 900;
+  font-size: 23px;
+line-height: 3rem;
+color: var(--White);
+}
+
+.valeu-y{
+  font-family: "Courier New', Courier, monospace";
+  font-weight: 900;
+  font-size: 23px;
+line-height: 3rem;
+color: var(--White);
+}
